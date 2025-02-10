@@ -6,4 +6,8 @@
 
   color: var(--content-secondary);
   font: var(--paragraph);
+
+  & img {
+    cursor: pointer;
+  }
 }

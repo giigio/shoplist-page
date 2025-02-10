@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--ff);
 }
 
 :root {
@@ -23,9 +22,11 @@
   --label: 600 1rem/1.25 var(--ff);
   --paragraph: 500 1rem/1.25 var(--ff);
   --link: 500 0.87rem/1 var(--ff);
+  --input: 400 1rem/1.4 var(--ff);
 }
 
 body {
+  font-family: var(--ff);
   background: var(--bg-primary);
 }
 
@@ -46,6 +47,7 @@ h1 {
 input {
   width: 100%;
   height: 2.75rem;
+  font: var(--input);
   border-radius: 0.75rem;
   padding: 0 1.125rem;
   border: 2px solid var(--border-primary);
