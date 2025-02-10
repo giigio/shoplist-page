@@ -1,0 +1,8 @@
+.alert-msg {
+  font: var(--label);
+  color: var(--always-white);
+  background-color: var(--color-danger);
+
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+}

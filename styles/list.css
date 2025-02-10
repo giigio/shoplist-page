@@ -1,0 +1,9 @@
+.item {
+  height: 3.06rem;
+  border-radius: 0.75rem;
+  background: var(--bg-secondary);
+  padding: 0.5rem 0.75rem;
+
+  color: var(--content-secondary);
+  font: var(--paragraph);
+}

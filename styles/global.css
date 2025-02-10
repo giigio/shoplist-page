@@ -25,12 +25,16 @@
   --link: 500 0.87rem/1 var(--ff);
 }
 
+body {
+  background: var(--bg-primary);
+}
+
 main {
   padding: 2rem;
 }
 
 .container {
-  width: 627px;
+  width: 39.187rem;
 }
 
 h1 {
@@ -54,8 +58,10 @@ button {
 
   border-radius: 0.75rem;
   background: var(--color-brand);
-  padding: 10px 24px;
+  padding: 0.625rem 1.5rem;
 
   font: var(--label);
   color: var(--always-white);
+
+  cursor: pointer;
 }
