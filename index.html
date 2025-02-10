@@ -27,25 +27,23 @@
           <h1>Compras da semana</h1>
         </div>
         <div class="flex gap-1">
-          <input type="text" placeholder="Adicione um novo item" />
-          <button>Adicionar item</button>
+          <input id="item" type="text" placeholder="Adicione um novo item" />
+          <button id="add-item">Adicionar item</button>
         </div>
 
         <div class="item-container flex flex-column gap-1">
-          <div class="item flex justify-between align-center gap-1">
-            <div class="flex justify-center align-center gap-1">
-              <input type="checkbox" id="001" name="itens[]" />
-              <p>Arroz</p>
-            </div>
-            <img src="assets/icons/Frame-3.svg" alt="botão remover item" />
-          </div>
+          <span class="no-item">Nenhum item adicionado a lista</span>
         </div>
         <div class="alert-msg flex justify-between align-center gap-05">
           <div class="flex align-center gap-05">
             <img src="assets/icons/warning-circle-filled.svg" alt="" />
             <span>O item foi removido da lista</span>
           </div>
-          <img src="assets/icons/delete-small.svg" alt="remover aviso" />
+          <img
+            id="remove-alert"
+            src="assets/icons/delete-small.svg"
+            alt="remover aviso"
+          />
         </div>
       </div>
     </main>

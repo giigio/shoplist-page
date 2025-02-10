@@ -1,13 +1,29 @@
 .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 3.06rem;
   border-radius: 0.75rem;
   background: var(--bg-secondary);
   padding: 0.5rem 0.75rem;
 
+  gap: 1rem;
+
   color: var(--content-secondary);
   font: var(--paragraph);
+
+  & input {
+    width: 16px;
+  }
 
   & img {
     cursor: pointer;
   }
+}
+
+.no-item {
+  font: var(--paragraph);
+  color: var(--content-tertiary);
+  text-align: center;
+  margin-top: 1rem;
 }

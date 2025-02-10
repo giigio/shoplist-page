@@ -5,4 +5,10 @@
 
   border-radius: 0.75rem;
   padding: 0.75rem;
+
+  & #remove-alert {
+    cursor: pointer;
+  }
+
+  display: none;
 }

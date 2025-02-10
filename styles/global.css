@@ -52,6 +52,10 @@ input {
   padding: 0 1.125rem;
   border: 2px solid var(--border-primary);
   background: var(--bg-secondary);
+
+  &:focus {
+    border-color: var(--color-brand);
+  }
 }
 
 button {
