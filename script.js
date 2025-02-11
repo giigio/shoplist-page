@@ -37,7 +37,6 @@ document.getElementById("add-item").addEventListener("click", (e) => {
 
 function removeItem() {
   document.addEventListener("click", (e) => {
-    console.log(e.target);
     if (e.target.parentElement.classList.contains("remove-item")) {
       e.target.parentElement.parentElement.remove();
 

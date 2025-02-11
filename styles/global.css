@@ -71,3 +71,23 @@ button {
 
   cursor: pointer;
 }
+
+@media (width < 60rem) {
+  .container {
+    width: 100%;
+  }
+
+  .small-direction {
+    flex-direction: column;
+  }
+
+  input {
+    height: 2.75rem;
+  }
+
+  button {
+    width: 85%;
+    text-align: center;
+    height: 2rem;
+  }
+}

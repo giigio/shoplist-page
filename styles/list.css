@@ -27,3 +27,9 @@
   text-align: center;
   margin-top: 1rem;
 }
+
+@media (width < 60rem) {
+  .item {
+    height: 3.5625rem;
+  }
+}
