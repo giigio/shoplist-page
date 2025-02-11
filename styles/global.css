@@ -86,7 +86,7 @@ button {
   }
 
   button {
-    width: 85%;
+    width: inherit;
     text-align: center;
     height: 2rem;
   }
