@@ -31,5 +31,25 @@ document.getElementById("add-item").addEventListener("click", (e) => {
 
     itemContainer.appendChild(itemElement);
     document.getElementById("item").value = "";
+    removeItem();
   }
 });
+
+function removeItem() {
+  document.addEventListener("click", (e) => {
+    console.log(e.target);
+    if (e.target.parentElement.classList.contains("remove-item")) {
+      e.target.parentElement.parentElement.remove();
+
+      let elementLength = document.getElementsByClassName("item").length;
+      if (elementLength === 0) {
+        document.querySelector(".no-item").style.display = "block";
+      }
+
+      document.getElementsByClassName("alert-msg")[0].style.display =
+        "inline-block";
+    } else if (e.target.classList.contains("remove-alert")) {
+      document.getElementsByClassName("alert-msg")[0].style.display = "none";
+    }
+  });
+}
